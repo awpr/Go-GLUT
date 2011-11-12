@@ -15,7 +15,7 @@ import "C"
 import "os"
 import "unsafe"
 
-import "gl"
+import "github.com/SirPsychoS/Go-OpenGL/src/gl"
 
 type (
 	Window     C.int

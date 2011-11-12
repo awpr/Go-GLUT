@@ -9,7 +9,7 @@ package glut
 // # include <GL/glut.h>
 // #endif
 // #include <stdlib.h>
-// #include "support.c"
+// #include "support.h"
 import "C"
 
 import "os"

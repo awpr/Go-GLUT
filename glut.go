@@ -453,7 +453,7 @@ func GetMenu() Menu {
 
 func (m Menu) Destroy() {
 	C.glutDestroyMenu(C.int(m))
-	delete(winFuncs, w)
+	delete(winFuncs, m)
 }
 
 func AddMenuEntry(name string, value int) {
